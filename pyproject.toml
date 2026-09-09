@@ -1,0 +1,22 @@
+[project]
+name = "oblig1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dureppoK", email = "nkk@kveim.org" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyter-collaboration>=5.0.2",
+    "matplotlib>=3.11.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+oblig1 = "oblig1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
